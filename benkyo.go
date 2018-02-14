@@ -13,7 +13,6 @@ import (
 const (
 	TypeConnpass = 1 // connpass
 	TypeAtnd     = 2 // atnd
-	GoogleApiKey = "AIzaSyCSfHkd-sdQF9MmBHG4rb9j19oLePv3GTU"
 )
 
 var (
