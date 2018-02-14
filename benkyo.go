@@ -138,10 +138,11 @@ func getConnpassDate(date time.Time, index int) (ret []ResConnpassEvent, err err
 // ----------------------------------------------------
 // ---------------------------------------
 // http://api.atnd.org/
-// type ResConnpass struct
-// type ResConnpassEvent struct
-// func getConnpass(from, to time.Time)
-// func getConnpassDate(date time.Time, index int)(ret []ResConnpassEvent, err error)
+// type ResAtnd struct
+// type ResAtndEvents struct
+// type ResAtndEvent struct
+// func getAtnd(from, to time.Time) (ret []Data, err error)
+// func getAtndDate(date time.Time, index int) (ret []ResAtndEvent, err error)
 // ---------------------------------------
 type ResAtnd struct {
 	ResCount  int             `json:"results_returned"`
